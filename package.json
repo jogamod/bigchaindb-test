@@ -1,0 +1,22 @@
+{
+  "name": "bigchaindb-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bigchaindb-driver": "^4.1.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.2"
+  }
+}
