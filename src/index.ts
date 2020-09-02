@@ -4,8 +4,8 @@ import {TransactionCommit, ITransaction, TransactionSync, TransactionAsync} from
 
 // BigchainDB server instance (e.g. https://example.com/api/v1/)
 const PROTOCOL = 'http'
-const HOST = 'localhost'
-const PORT = 9984
+const HOST = '192.168.0.113'
+const PORT = 33055
 const API_PATH = `${PROTOCOL}://${HOST}:${PORT}/api/v1/`
 const SENSOR_PRIVATE_KEY = '23b050f5d498563aad5dc07484d0ec1d'
 const SENSOR_ID = '111111'
